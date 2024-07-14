@@ -5,8 +5,8 @@ const getTime = () => {
     const minutes = currentTime.getMinutes();
     const seconds = currentTime.getSeconds();
     return `${hours}:${minutes}:${seconds}`;
+    // Add feature
 }
-
 const initFunc = () => {
     // Uncomment below line to clear console every time
     console.clear();
